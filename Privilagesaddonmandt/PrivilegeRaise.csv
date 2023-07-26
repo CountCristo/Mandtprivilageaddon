@@ -1,0 +1,47 @@
+Index;Privilege;Codename;Ranks;Interactions;DefaultPosition;Event;Icon
+0;Sale of Office;BUOffice;3;2;0;;privilege_investigate_corruption
+1;Tax Farming;BUFarm;3;2;0;;privilege_exempt_officers_from_jaziya
+2;Term of Office;BUTenure;3;2;0;;privilege_empty_throne
+3;Official Wages;BUWages;4;3;0;;privilege_give_money
+4;Bureaucratic Hierarchy;BUHierarchy;3;2;0;;privilege_empty_throne
+5;Means of Recruitment;BUHire;5;4;0;;privilege_recruit_minister
+6;Civil Examinations;BUExams;4;3;0;;privilege_admin_power
+7;Institutional Oversight;BUOversight;3;2;0;;privilege_commission_jain_scripture
+8;Entry Requirements;BUEnlist;3;2;0;;privilege_demand_more_troops
+9;Provincial Administration;BUStructure;4;3;0;;privilege_monopoly_of_goods_paper
+10;Sovereign Courts;BUCourts;4;3;0;;privilege_build_jain_temple
+11;Local Government;BULocal;4;3;0;;
+12;Bureaucratic Politicisation;BUPolitics;4;3;0;;privilege_diplo_power
+13;Regional Tenure;BURotate;2;1;0;;privilege_switch_hindu_deity
+14;Process Monopoly;NOProcessing;3;2;0;;privilege_monopoly_of_goods_iron
+15;Noble Dues;NOServiceE;5;4;0;;
+16;Titles;NOTitles;3;2;0;;
+17;Process Monopoly;NOProcessing;3;2;0;;
+18;Game Monopoly;NOGame;3;2;0;;privilege_monopoly_of_goods_cloth
+19;Forestry Monopoly;NOForestry;3;2;0;;privilege_monopoly_of_goods_wool
+20;Seigneurial Courts;NOSeigneurial;4;3;0;;privilege_grant_new_world_charter
+21;Court Titles;NOHeritable;3;2;0;;
+22;Rural Autonomy;NOAutonomy;6;5;0;;privilege_grant_autonomy
+23;Prestigious Diplomacy;NODiplomacy;3;2;0;;privilege_diplo_power
+24;Familial Service;NODynastic;3;2;0;;privilege_empty_throne
+25;Noble Hierarchy;NOHierarchy;4;3;0;;privilege_seek_support_of_clergy
+26;Noble Tax Dues;NOTaxE;6;5;0;;privilege_make_generous_donation
+27;Noble Service Dues;NOServiceE;6;5;0;;privilege_demand_more_troops
+28;Commercial Rights;BRCommercialrights;5;4;0;;privilege_demand_more_troops
+29;Tolorated Smuggling;BRSmuggling;5;4;0;;privilege_demand_more_troops
+30;Salt and Exotics Monopoly;BRExoticSalt;5;4;0;;privilege_demand_more_troops
+31;Embargo Exceptions;BREmbargoExceptions;5;4;0;;privilege_demand_more_troops
+32;Minor Titles;BRTitles;5;4;0;;privilege_demand_more_troops
+33;Court Monopoly;BRCourtMonopoly;5;4;0;;privilege_demand_more_troops
+34;Urban Autonomy;BRAutonomy;5;4;0;;privilege_demand_more_troops
+35;Armament Monopolies;BRArmamentMonopolies;5;4;0;;privilege_demand_more_troops
+36;Tollage Exemptions;BRTollageExemptions;5;4;0;;privilege_demand_more_troops
+37;Shipbuilding;BRShipbuilding;5;4;0;;privilege_demand_more_troops
+38;Citizen Service;BRService;5;4;0;;privilege_demand_more_troops
+39;Bequithment;CLBequithment;5;4;0;;privilege_demand_more_troops
+40;Doctrinalism;CLdoctrinalism;5;4;0;;privilege_demand_more_troops
+41;Clerical Education;CLHigherEd;5;4;0;;privilege_demand_more_troops
+42;Clerical Benefit;CLBenefit;5;4;0;;privilege_demand_more_troops
+43;Pluralism;CLPluralism;5;4;0;;privilege_demand_more_troops
+44;Clergy Allegiance;CLAlligence;5;4;0;;privilege_demand_more_troops
+45;Court Offices;CLCourt;5;4;0;;privilege_demand_more_troops

@@ -1,0 +1,1362 @@
+
+PrivilegeUI_Assign = {
+	remove_estate_privilege = Privilege_BUOffice0
+	remove_estate_privilege = Privilege_BUOffice1
+	remove_estate_privilege = Privilege_BUOffice2
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BUOffice Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BUOffice0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUOffice Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BUOffice1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUOffice Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BUOffice2
+    }
+	remove_estate_privilege = Privilege_BUFarm0
+	remove_estate_privilege = Privilege_BUFarm1
+	remove_estate_privilege = Privilege_BUFarm2
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BUFarm Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BUFarm0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUFarm Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BUFarm1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUFarm Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BUFarm2
+    }
+	remove_estate_privilege = Privilege_BUTenure0
+	remove_estate_privilege = Privilege_BUTenure1
+	remove_estate_privilege = Privilege_BUTenure2
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BUTenure Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BUTenure0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUTenure Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BUTenure1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUTenure Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BUTenure2
+    }
+	remove_estate_privilege = Privilege_BUWages0
+	remove_estate_privilege = Privilege_BUWages1
+	remove_estate_privilege = Privilege_BUWages2
+	remove_estate_privilege = Privilege_BUWages3
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BUWages Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BUWages0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUWages Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BUWages1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUWages Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BUWages2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUWages Lvl=3 }
+        }
+		set_estate_privilege = Privilege_BUWages3
+    }
+	remove_estate_privilege = Privilege_BUHierarchy0
+	remove_estate_privilege = Privilege_BUHierarchy1
+	remove_estate_privilege = Privilege_BUHierarchy2
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BUHierarchy Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BUHierarchy0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUHierarchy Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BUHierarchy1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUHierarchy Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BUHierarchy2
+    }
+	remove_estate_privilege = Privilege_BUHire0
+	remove_estate_privilege = Privilege_BUHire1
+	remove_estate_privilege = Privilege_BUHire2
+	remove_estate_privilege = Privilege_BUHire3
+	remove_estate_privilege = Privilege_BUHire4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BUHire Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BUHire0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUHire Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BUHire1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUHire Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BUHire2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUHire Lvl=3 }
+        }
+		set_estate_privilege = Privilege_BUHire3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUHire Lvl=4 }
+        }
+		set_estate_privilege = Privilege_BUHire4
+    }
+	remove_estate_privilege = Privilege_BUExams0
+	remove_estate_privilege = Privilege_BUExams1
+	remove_estate_privilege = Privilege_BUExams2
+	remove_estate_privilege = Privilege_BUExams3
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BUExams Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BUExams0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUExams Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BUExams1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUExams Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BUExams2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUExams Lvl=3 }
+        }
+		set_estate_privilege = Privilege_BUExams3
+    }
+	remove_estate_privilege = Privilege_BUOversight0
+	remove_estate_privilege = Privilege_BUOversight1
+	remove_estate_privilege = Privilege_BUOversight2
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BUOversight Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BUOversight0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUOversight Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BUOversight1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUOversight Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BUOversight2
+    }
+	remove_estate_privilege = Privilege_BUEnlist0
+	remove_estate_privilege = Privilege_BUEnlist1
+	remove_estate_privilege = Privilege_BUEnlist2
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BUEnlist Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BUEnlist0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUEnlist Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BUEnlist1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUEnlist Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BUEnlist2
+    }
+	remove_estate_privilege = Privilege_BUStructure0
+	remove_estate_privilege = Privilege_BUStructure1
+	remove_estate_privilege = Privilege_BUStructure2
+	remove_estate_privilege = Privilege_BUStructure3
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BUStructure Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BUStructure0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUStructure Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BUStructure1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUStructure Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BUStructure2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUStructure Lvl=3 }
+        }
+		set_estate_privilege = Privilege_BUStructure3
+    }
+	remove_estate_privilege = Privilege_BUCourts0
+	remove_estate_privilege = Privilege_BUCourts1
+	remove_estate_privilege = Privilege_BUCourts2
+	remove_estate_privilege = Privilege_BUCourts3
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BUCourts Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BUCourts0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUCourts Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BUCourts1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUCourts Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BUCourts2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUCourts Lvl=3 }
+        }
+		set_estate_privilege = Privilege_BUCourts3
+    }
+	remove_estate_privilege = Privilege_BULocal0
+	remove_estate_privilege = Privilege_BULocal1
+	remove_estate_privilege = Privilege_BULocal2
+	remove_estate_privilege = Privilege_BULocal3
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BULocal Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BULocal0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BULocal Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BULocal1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BULocal Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BULocal2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BULocal Lvl=3 }
+        }
+		set_estate_privilege = Privilege_BULocal3
+    }
+	remove_estate_privilege = Privilege_BUPolitics0
+	remove_estate_privilege = Privilege_BUPolitics1
+	remove_estate_privilege = Privilege_BUPolitics2
+	remove_estate_privilege = Privilege_BUPolitics3
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BUPolitics Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BUPolitics0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUPolitics Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BUPolitics1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUPolitics Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BUPolitics2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BUPolitics Lvl=3 }
+        }
+		set_estate_privilege = Privilege_BUPolitics3
+    }
+	remove_estate_privilege = Privilege_BURotate0
+	remove_estate_privilege = Privilege_BURotate1
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BURotate Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BURotate0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BURotate Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BURotate1
+    }
+	remove_estate_privilege = Privilege_NOProcessing0
+	remove_estate_privilege = Privilege_NOProcessing1
+	remove_estate_privilege = Privilege_NOProcessing2
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=NOProcessing Lvl=0 }
+        }
+        set_estate_privilege = Privilege_NOProcessing0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOProcessing Lvl=1 }
+        }
+		set_estate_privilege = Privilege_NOProcessing1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOProcessing Lvl=2 }
+        }
+		set_estate_privilege = Privilege_NOProcessing2
+    }
+	remove_estate_privilege = Privilege_NOServiceE0
+	remove_estate_privilege = Privilege_NOServiceE1
+	remove_estate_privilege = Privilege_NOServiceE2
+	remove_estate_privilege = Privilege_NOServiceE3
+	remove_estate_privilege = Privilege_NOServiceE4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=NOServiceE Lvl=0 }
+        }
+        set_estate_privilege = Privilege_NOServiceE0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOServiceE Lvl=1 }
+        }
+		set_estate_privilege = Privilege_NOServiceE1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOServiceE Lvl=2 }
+        }
+		set_estate_privilege = Privilege_NOServiceE2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOServiceE Lvl=3 }
+        }
+		set_estate_privilege = Privilege_NOServiceE3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOServiceE Lvl=4 }
+        }
+		set_estate_privilege = Privilege_NOServiceE4
+    }
+	remove_estate_privilege = Privilege_NOTitles0
+	remove_estate_privilege = Privilege_NOTitles1
+	remove_estate_privilege = Privilege_NOTitles2
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=NOTitles Lvl=0 }
+        }
+        set_estate_privilege = Privilege_NOTitles0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOTitles Lvl=1 }
+        }
+		set_estate_privilege = Privilege_NOTitles1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOTitles Lvl=2 }
+        }
+		set_estate_privilege = Privilege_NOTitles2
+    }
+	remove_estate_privilege = Privilege_NOProcessing0
+	remove_estate_privilege = Privilege_NOProcessing1
+	remove_estate_privilege = Privilege_NOProcessing2
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=NOProcessing Lvl=0 }
+        }
+        set_estate_privilege = Privilege_NOProcessing0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOProcessing Lvl=1 }
+        }
+		set_estate_privilege = Privilege_NOProcessing1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOProcessing Lvl=2 }
+        }
+		set_estate_privilege = Privilege_NOProcessing2
+    }
+	remove_estate_privilege = Privilege_NOGame0
+	remove_estate_privilege = Privilege_NOGame1
+	remove_estate_privilege = Privilege_NOGame2
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=NOGame Lvl=0 }
+        }
+        set_estate_privilege = Privilege_NOGame0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOGame Lvl=1 }
+        }
+		set_estate_privilege = Privilege_NOGame1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOGame Lvl=2 }
+        }
+		set_estate_privilege = Privilege_NOGame2
+    }
+	remove_estate_privilege = Privilege_NOForestry0
+	remove_estate_privilege = Privilege_NOForestry1
+	remove_estate_privilege = Privilege_NOForestry2
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=NOForestry Lvl=0 }
+        }
+        set_estate_privilege = Privilege_NOForestry0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOForestry Lvl=1 }
+        }
+		set_estate_privilege = Privilege_NOForestry1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOForestry Lvl=2 }
+        }
+		set_estate_privilege = Privilege_NOForestry2
+    }
+	remove_estate_privilege = Privilege_NOSeigneurial0
+	remove_estate_privilege = Privilege_NOSeigneurial1
+	remove_estate_privilege = Privilege_NOSeigneurial2
+	remove_estate_privilege = Privilege_NOSeigneurial3
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=NOSeigneurial Lvl=0 }
+        }
+        set_estate_privilege = Privilege_NOSeigneurial0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOSeigneurial Lvl=1 }
+        }
+		set_estate_privilege = Privilege_NOSeigneurial1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOSeigneurial Lvl=2 }
+        }
+		set_estate_privilege = Privilege_NOSeigneurial2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOSeigneurial Lvl=3 }
+        }
+		set_estate_privilege = Privilege_NOSeigneurial3
+    }
+	remove_estate_privilege = Privilege_NOHeritable0
+	remove_estate_privilege = Privilege_NOHeritable1
+	remove_estate_privilege = Privilege_NOHeritable2
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=NOHeritable Lvl=0 }
+        }
+        set_estate_privilege = Privilege_NOHeritable0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOHeritable Lvl=1 }
+        }
+		set_estate_privilege = Privilege_NOHeritable1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOHeritable Lvl=2 }
+        }
+		set_estate_privilege = Privilege_NOHeritable2
+    }
+	remove_estate_privilege = Privilege_NOAutonomy0
+	remove_estate_privilege = Privilege_NOAutonomy1
+	remove_estate_privilege = Privilege_NOAutonomy2
+	remove_estate_privilege = Privilege_NOAutonomy3
+	remove_estate_privilege = Privilege_NOAutonomy4
+	remove_estate_privilege = Privilege_NOAutonomy5
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=NOAutonomy Lvl=0 }
+        }
+        set_estate_privilege = Privilege_NOAutonomy0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOAutonomy Lvl=1 }
+        }
+		set_estate_privilege = Privilege_NOAutonomy1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOAutonomy Lvl=2 }
+        }
+		set_estate_privilege = Privilege_NOAutonomy2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOAutonomy Lvl=3 }
+        }
+		set_estate_privilege = Privilege_NOAutonomy3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOAutonomy Lvl=4 }
+        }
+		set_estate_privilege = Privilege_NOAutonomy4
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOAutonomy Lvl=5 }
+        }
+		set_estate_privilege = Privilege_NOAutonomy5
+    }
+	remove_estate_privilege = Privilege_NODiplomacy0
+	remove_estate_privilege = Privilege_NODiplomacy1
+	remove_estate_privilege = Privilege_NODiplomacy2
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=NODiplomacy Lvl=0 }
+        }
+        set_estate_privilege = Privilege_NODiplomacy0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NODiplomacy Lvl=1 }
+        }
+		set_estate_privilege = Privilege_NODiplomacy1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NODiplomacy Lvl=2 }
+        }
+		set_estate_privilege = Privilege_NODiplomacy2
+    }
+	remove_estate_privilege = Privilege_NODynastic0
+	remove_estate_privilege = Privilege_NODynastic1
+	remove_estate_privilege = Privilege_NODynastic2
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=NODynastic Lvl=0 }
+        }
+        set_estate_privilege = Privilege_NODynastic0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NODynastic Lvl=1 }
+        }
+		set_estate_privilege = Privilege_NODynastic1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NODynastic Lvl=2 }
+        }
+		set_estate_privilege = Privilege_NODynastic2
+    }
+	remove_estate_privilege = Privilege_NOHierarchy0
+	remove_estate_privilege = Privilege_NOHierarchy1
+	remove_estate_privilege = Privilege_NOHierarchy2
+	remove_estate_privilege = Privilege_NOHierarchy3
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=NOHierarchy Lvl=0 }
+        }
+        set_estate_privilege = Privilege_NOHierarchy0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOHierarchy Lvl=1 }
+        }
+		set_estate_privilege = Privilege_NOHierarchy1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOHierarchy Lvl=2 }
+        }
+		set_estate_privilege = Privilege_NOHierarchy2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOHierarchy Lvl=3 }
+        }
+		set_estate_privilege = Privilege_NOHierarchy3
+    }
+	remove_estate_privilege = Privilege_NOTaxE0
+	remove_estate_privilege = Privilege_NOTaxE1
+	remove_estate_privilege = Privilege_NOTaxE2
+	remove_estate_privilege = Privilege_NOTaxE3
+	remove_estate_privilege = Privilege_NOTaxE4
+	remove_estate_privilege = Privilege_NOTaxE5
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=NOTaxE Lvl=0 }
+        }
+        set_estate_privilege = Privilege_NOTaxE0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOTaxE Lvl=1 }
+        }
+		set_estate_privilege = Privilege_NOTaxE1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOTaxE Lvl=2 }
+        }
+		set_estate_privilege = Privilege_NOTaxE2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOTaxE Lvl=3 }
+        }
+		set_estate_privilege = Privilege_NOTaxE3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOTaxE Lvl=4 }
+        }
+		set_estate_privilege = Privilege_NOTaxE4
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOTaxE Lvl=5 }
+        }
+		set_estate_privilege = Privilege_NOTaxE5
+    }
+	remove_estate_privilege = Privilege_NOServiceE0
+	remove_estate_privilege = Privilege_NOServiceE1
+	remove_estate_privilege = Privilege_NOServiceE2
+	remove_estate_privilege = Privilege_NOServiceE3
+	remove_estate_privilege = Privilege_NOServiceE4
+	remove_estate_privilege = Privilege_NOServiceE5
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=NOServiceE Lvl=0 }
+        }
+        set_estate_privilege = Privilege_NOServiceE0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOServiceE Lvl=1 }
+        }
+		set_estate_privilege = Privilege_NOServiceE1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOServiceE Lvl=2 }
+        }
+		set_estate_privilege = Privilege_NOServiceE2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOServiceE Lvl=3 }
+        }
+		set_estate_privilege = Privilege_NOServiceE3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOServiceE Lvl=4 }
+        }
+		set_estate_privilege = Privilege_NOServiceE4
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=NOServiceE Lvl=5 }
+        }
+		set_estate_privilege = Privilege_NOServiceE5
+    }
+	remove_estate_privilege = Privilege_BRCommercialrights0
+	remove_estate_privilege = Privilege_BRCommercialrights1
+	remove_estate_privilege = Privilege_BRCommercialrights2
+	remove_estate_privilege = Privilege_BRCommercialrights3
+	remove_estate_privilege = Privilege_BRCommercialrights4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BRCommercialrights Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BRCommercialrights0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRCommercialrights Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BRCommercialrights1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRCommercialrights Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BRCommercialrights2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRCommercialrights Lvl=3 }
+        }
+		set_estate_privilege = Privilege_BRCommercialrights3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRCommercialrights Lvl=4 }
+        }
+		set_estate_privilege = Privilege_BRCommercialrights4
+    }
+	remove_estate_privilege = Privilege_BRSmuggling0
+	remove_estate_privilege = Privilege_BRSmuggling1
+	remove_estate_privilege = Privilege_BRSmuggling2
+	remove_estate_privilege = Privilege_BRSmuggling3
+	remove_estate_privilege = Privilege_BRSmuggling4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BRSmuggling Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BRSmuggling0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRSmuggling Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BRSmuggling1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRSmuggling Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BRSmuggling2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRSmuggling Lvl=3 }
+        }
+		set_estate_privilege = Privilege_BRSmuggling3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRSmuggling Lvl=4 }
+        }
+		set_estate_privilege = Privilege_BRSmuggling4
+    }
+	remove_estate_privilege = Privilege_BRExoticSalt0
+	remove_estate_privilege = Privilege_BRExoticSalt1
+	remove_estate_privilege = Privilege_BRExoticSalt2
+	remove_estate_privilege = Privilege_BRExoticSalt3
+	remove_estate_privilege = Privilege_BRExoticSalt4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BRExoticSalt Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BRExoticSalt0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRExoticSalt Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BRExoticSalt1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRExoticSalt Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BRExoticSalt2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRExoticSalt Lvl=3 }
+        }
+		set_estate_privilege = Privilege_BRExoticSalt3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRExoticSalt Lvl=4 }
+        }
+		set_estate_privilege = Privilege_BRExoticSalt4
+    }
+	remove_estate_privilege = Privilege_BREmbargoExceptions0
+	remove_estate_privilege = Privilege_BREmbargoExceptions1
+	remove_estate_privilege = Privilege_BREmbargoExceptions2
+	remove_estate_privilege = Privilege_BREmbargoExceptions3
+	remove_estate_privilege = Privilege_BREmbargoExceptions4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BREmbargoExceptions Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BREmbargoExceptions0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BREmbargoExceptions Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BREmbargoExceptions1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BREmbargoExceptions Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BREmbargoExceptions2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BREmbargoExceptions Lvl=3 }
+        }
+		set_estate_privilege = Privilege_BREmbargoExceptions3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BREmbargoExceptions Lvl=4 }
+        }
+		set_estate_privilege = Privilege_BREmbargoExceptions4
+    }
+	remove_estate_privilege = Privilege_BRTitles0
+	remove_estate_privilege = Privilege_BRTitles1
+	remove_estate_privilege = Privilege_BRTitles2
+	remove_estate_privilege = Privilege_BRTitles3
+	remove_estate_privilege = Privilege_BRTitles4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BRTitles Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BRTitles0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRTitles Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BRTitles1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRTitles Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BRTitles2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRTitles Lvl=3 }
+        }
+		set_estate_privilege = Privilege_BRTitles3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRTitles Lvl=4 }
+        }
+		set_estate_privilege = Privilege_BRTitles4
+    }
+	remove_estate_privilege = Privilege_BRCourtMonopoly0
+	remove_estate_privilege = Privilege_BRCourtMonopoly1
+	remove_estate_privilege = Privilege_BRCourtMonopoly2
+	remove_estate_privilege = Privilege_BRCourtMonopoly3
+	remove_estate_privilege = Privilege_BRCourtMonopoly4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BRCourtMonopoly Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BRCourtMonopoly0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRCourtMonopoly Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BRCourtMonopoly1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRCourtMonopoly Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BRCourtMonopoly2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRCourtMonopoly Lvl=3 }
+        }
+		set_estate_privilege = Privilege_BRCourtMonopoly3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRCourtMonopoly Lvl=4 }
+        }
+		set_estate_privilege = Privilege_BRCourtMonopoly4
+    }
+	remove_estate_privilege = Privilege_BRAutonomy0
+	remove_estate_privilege = Privilege_BRAutonomy1
+	remove_estate_privilege = Privilege_BRAutonomy2
+	remove_estate_privilege = Privilege_BRAutonomy3
+	remove_estate_privilege = Privilege_BRAutonomy4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BRAutonomy Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BRAutonomy0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRAutonomy Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BRAutonomy1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRAutonomy Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BRAutonomy2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRAutonomy Lvl=3 }
+        }
+		set_estate_privilege = Privilege_BRAutonomy3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRAutonomy Lvl=4 }
+        }
+		set_estate_privilege = Privilege_BRAutonomy4
+    }
+	remove_estate_privilege = Privilege_BRArmamentMonopolies0
+	remove_estate_privilege = Privilege_BRArmamentMonopolies1
+	remove_estate_privilege = Privilege_BRArmamentMonopolies2
+	remove_estate_privilege = Privilege_BRArmamentMonopolies3
+	remove_estate_privilege = Privilege_BRArmamentMonopolies4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BRArmamentMonopolies Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BRArmamentMonopolies0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRArmamentMonopolies Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BRArmamentMonopolies1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRArmamentMonopolies Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BRArmamentMonopolies2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRArmamentMonopolies Lvl=3 }
+        }
+		set_estate_privilege = Privilege_BRArmamentMonopolies3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRArmamentMonopolies Lvl=4 }
+        }
+		set_estate_privilege = Privilege_BRArmamentMonopolies4
+    }
+	remove_estate_privilege = Privilege_BRTollageExemptions0
+	remove_estate_privilege = Privilege_BRTollageExemptions1
+	remove_estate_privilege = Privilege_BRTollageExemptions2
+	remove_estate_privilege = Privilege_BRTollageExemptions3
+	remove_estate_privilege = Privilege_BRTollageExemptions4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BRTollageExemptions Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BRTollageExemptions0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRTollageExemptions Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BRTollageExemptions1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRTollageExemptions Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BRTollageExemptions2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRTollageExemptions Lvl=3 }
+        }
+		set_estate_privilege = Privilege_BRTollageExemptions3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRTollageExemptions Lvl=4 }
+        }
+		set_estate_privilege = Privilege_BRTollageExemptions4
+    }
+	remove_estate_privilege = Privilege_BRShipbuilding0
+	remove_estate_privilege = Privilege_BRShipbuilding1
+	remove_estate_privilege = Privilege_BRShipbuilding2
+	remove_estate_privilege = Privilege_BRShipbuilding3
+	remove_estate_privilege = Privilege_BRShipbuilding4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BRShipbuilding Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BRShipbuilding0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRShipbuilding Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BRShipbuilding1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRShipbuilding Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BRShipbuilding2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRShipbuilding Lvl=3 }
+        }
+		set_estate_privilege = Privilege_BRShipbuilding3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRShipbuilding Lvl=4 }
+        }
+		set_estate_privilege = Privilege_BRShipbuilding4
+    }
+	remove_estate_privilege = Privilege_BRService0
+	remove_estate_privilege = Privilege_BRService1
+	remove_estate_privilege = Privilege_BRService2
+	remove_estate_privilege = Privilege_BRService3
+	remove_estate_privilege = Privilege_BRService4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=BRService Lvl=0 }
+        }
+        set_estate_privilege = Privilege_BRService0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRService Lvl=1 }
+        }
+		set_estate_privilege = Privilege_BRService1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRService Lvl=2 }
+        }
+		set_estate_privilege = Privilege_BRService2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRService Lvl=3 }
+        }
+		set_estate_privilege = Privilege_BRService3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=BRService Lvl=4 }
+        }
+		set_estate_privilege = Privilege_BRService4
+    }
+	remove_estate_privilege = Privilege_CLBequithment0
+	remove_estate_privilege = Privilege_CLBequithment1
+	remove_estate_privilege = Privilege_CLBequithment2
+	remove_estate_privilege = Privilege_CLBequithment3
+	remove_estate_privilege = Privilege_CLBequithment4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=CLBequithment Lvl=0 }
+        }
+        set_estate_privilege = Privilege_CLBequithment0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLBequithment Lvl=1 }
+        }
+		set_estate_privilege = Privilege_CLBequithment1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLBequithment Lvl=2 }
+        }
+		set_estate_privilege = Privilege_CLBequithment2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLBequithment Lvl=3 }
+        }
+		set_estate_privilege = Privilege_CLBequithment3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLBequithment Lvl=4 }
+        }
+		set_estate_privilege = Privilege_CLBequithment4
+    }
+	remove_estate_privilege = Privilege_CLdoctrinalism0
+	remove_estate_privilege = Privilege_CLdoctrinalism1
+	remove_estate_privilege = Privilege_CLdoctrinalism2
+	remove_estate_privilege = Privilege_CLdoctrinalism3
+	remove_estate_privilege = Privilege_CLdoctrinalism4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=CLdoctrinalism Lvl=0 }
+        }
+        set_estate_privilege = Privilege_CLdoctrinalism0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLdoctrinalism Lvl=1 }
+        }
+		set_estate_privilege = Privilege_CLdoctrinalism1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLdoctrinalism Lvl=2 }
+        }
+		set_estate_privilege = Privilege_CLdoctrinalism2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLdoctrinalism Lvl=3 }
+        }
+		set_estate_privilege = Privilege_CLdoctrinalism3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLdoctrinalism Lvl=4 }
+        }
+		set_estate_privilege = Privilege_CLdoctrinalism4
+    }
+	remove_estate_privilege = Privilege_CLHigherEd0
+	remove_estate_privilege = Privilege_CLHigherEd1
+	remove_estate_privilege = Privilege_CLHigherEd2
+	remove_estate_privilege = Privilege_CLHigherEd3
+	remove_estate_privilege = Privilege_CLHigherEd4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=CLHigherEd Lvl=0 }
+        }
+        set_estate_privilege = Privilege_CLHigherEd0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLHigherEd Lvl=1 }
+        }
+		set_estate_privilege = Privilege_CLHigherEd1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLHigherEd Lvl=2 }
+        }
+		set_estate_privilege = Privilege_CLHigherEd2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLHigherEd Lvl=3 }
+        }
+		set_estate_privilege = Privilege_CLHigherEd3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLHigherEd Lvl=4 }
+        }
+		set_estate_privilege = Privilege_CLHigherEd4
+    }
+	remove_estate_privilege = Privilege_CLBenefit0
+	remove_estate_privilege = Privilege_CLBenefit1
+	remove_estate_privilege = Privilege_CLBenefit2
+	remove_estate_privilege = Privilege_CLBenefit3
+	remove_estate_privilege = Privilege_CLBenefit4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=CLBenefit Lvl=0 }
+        }
+        set_estate_privilege = Privilege_CLBenefit0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLBenefit Lvl=1 }
+        }
+		set_estate_privilege = Privilege_CLBenefit1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLBenefit Lvl=2 }
+        }
+		set_estate_privilege = Privilege_CLBenefit2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLBenefit Lvl=3 }
+        }
+		set_estate_privilege = Privilege_CLBenefit3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLBenefit Lvl=4 }
+        }
+		set_estate_privilege = Privilege_CLBenefit4
+    }
+	remove_estate_privilege = Privilege_CLPluralism0
+	remove_estate_privilege = Privilege_CLPluralism1
+	remove_estate_privilege = Privilege_CLPluralism2
+	remove_estate_privilege = Privilege_CLPluralism3
+	remove_estate_privilege = Privilege_CLPluralism4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=CLPluralism Lvl=0 }
+        }
+        set_estate_privilege = Privilege_CLPluralism0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLPluralism Lvl=1 }
+        }
+		set_estate_privilege = Privilege_CLPluralism1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLPluralism Lvl=2 }
+        }
+		set_estate_privilege = Privilege_CLPluralism2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLPluralism Lvl=3 }
+        }
+		set_estate_privilege = Privilege_CLPluralism3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLPluralism Lvl=4 }
+        }
+		set_estate_privilege = Privilege_CLPluralism4
+    }
+	remove_estate_privilege = Privilege_CLAlligence0
+	remove_estate_privilege = Privilege_CLAlligence1
+	remove_estate_privilege = Privilege_CLAlligence2
+	remove_estate_privilege = Privilege_CLAlligence3
+	remove_estate_privilege = Privilege_CLAlligence4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=CLAlligence Lvl=0 }
+        }
+        set_estate_privilege = Privilege_CLAlligence0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLAlligence Lvl=1 }
+        }
+		set_estate_privilege = Privilege_CLAlligence1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLAlligence Lvl=2 }
+        }
+		set_estate_privilege = Privilege_CLAlligence2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLAlligence Lvl=3 }
+        }
+		set_estate_privilege = Privilege_CLAlligence3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLAlligence Lvl=4 }
+        }
+		set_estate_privilege = Privilege_CLAlligence4
+    }
+	remove_estate_privilege = Privilege_CLCourt0
+	remove_estate_privilege = Privilege_CLCourt1
+	remove_estate_privilege = Privilege_CLCourt2
+	remove_estate_privilege = Privilege_CLCourt3
+	remove_estate_privilege = Privilege_CLCourt4
+    if = {
+        limit = {
+            Privilege_Has = { Privilege=CLCourt Lvl=0 }
+        }
+        set_estate_privilege = Privilege_CLCourt0
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLCourt Lvl=1 }
+        }
+		set_estate_privilege = Privilege_CLCourt1
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLCourt Lvl=2 }
+        }
+		set_estate_privilege = Privilege_CLCourt2
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLCourt Lvl=3 }
+        }
+		set_estate_privilege = Privilege_CLCourt3
+    }
+    else_if = {
+        limit = {
+            Privilege_Has = { Privilege=CLCourt Lvl=4 }
+        }
+		set_estate_privilege = Privilege_CLCourt4
+    }
+	clr_country_flag = Reset_UI
+}
