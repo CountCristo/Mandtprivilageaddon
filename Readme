@@ -1,1 +1,25 @@
 finding my way - wont work for now
+
+
+Process as I have been trying it:
+
+Create mod
+
+Create folder to run python script in, that folder has the same contence and file structure as the mod uploaded here.
+It includes all the files that the python script needs and is designed to allow me to run the script and quickly pull the files I need to put in the mod.
+
+Change "PrivilegeRaise" and PrivilageLower" to include the privilage you wish to add. See those files for the format I'm using to do that.
+
+Run the script - if errors it's usually because you forgot to put a file in the place you are running the script and it can't find it.
+
+If no errors: copy the full contence of the python folder into the mod and overwrite.
+
+Take the names of privilages from PrivilegeUIList.txt and add them to common\estates\00_estates.txt - I am doing this for burgers at line 889
+I have tried this for all of the versions of the burgher estate in the file, I'm unclear which is the correct one - none seem to work.
+
+Take the new sprite code from gfx.txt and add it to the end of interface\countryestatesview.gfx - remember to put it inside the final } 
+Ensure that "gfx\estates" contains .pngs that match the names just entered into the above. 
+
+Load the game and see this: https://imgur.com/a/mxp5tto
+note that noble estates privilages are all missing but one, they can be asigned though.
+The burger estates have the shown odd star - and the new ones can be added. 
